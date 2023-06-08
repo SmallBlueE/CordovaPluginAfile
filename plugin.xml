@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-afile"
+    version="0.0.1">
+
+    <name>CordovaPluginAFile</name>
+    <description>A Cordova plugin of reading text file for SDK 31</description>
+    <license>MIT</license>
+
+    <js-module src="www/CordovaPluginAFile.js" name="CordovaPluginAFile">
+        <clobbers target="CordovaPluginAFile" />
+    </js-module>
+
+    <!-- android platform -->
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CordovaPluginAFile">
+                <param name="android-package" value="com.ppp.CordovaPluginAFile.CordovaPluginAFile" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/CordovaPluginAFile.java" target-dir="src/com/ppp/CordovaPluginAFile" />
+    </platform>
+
+    <!-- ios platform -->
+    <!-- Similar configuration for iOS here -->
+</plugin>

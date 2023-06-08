@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-afile",
+  "version": "0.0.2",
+  "description": "A Cordova plugin to read a file as text using a URI",
+  "cordova": {
+    "id": "cordova-plugin-afile",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "android",
+    "file",
+    "read",
+    "text"
+  ],
+  "author": "SmallBlueE@PPP",
+  "license": "MIT",
+  "dependencies": {
+    "cordova": "^10.0.0"
+  },
+  "devDependencies": {
+    "cordova-android": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SmallBlueE/CordovaPluginAfile.git"
+  }
+}
