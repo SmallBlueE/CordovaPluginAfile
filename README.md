@@ -1,6 +1,11 @@
 # Cordova Plugin: Read Text File via Android Intent
 
 This Cordova plugin is designed to read text files through Android Intents, supporting Android SDK 31.
+## Installation
+
+cordova plugin add cordova-plugin-afile
+
+
 
 ## Usage
 

@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-afile",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Cordova plugin to read a file as text using a URI",
   "cordova": {
     "id": "cordova-plugin-afile",
